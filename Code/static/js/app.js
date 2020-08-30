@@ -138,7 +138,7 @@ d3.select("#selDataset").on("change", function(){
     metadataHtml.append("p").text("bbtype: "+bbtype);
     metadataHtml.append("p").text("wfreq: "+wfreq);
     //update gauge chart
-    Plotly.newPlot('gauge', "value", wfreq);
+    Plotly.restyle('gauge', "value", wfreq);
 
 });
 
