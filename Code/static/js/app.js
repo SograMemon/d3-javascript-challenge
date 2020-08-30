@@ -3,6 +3,7 @@ var sampleValues;
 var otuIds;
 var otuLabels;
 var otuPersonId;
+var metadata;
 function init(){
     //initializes default graph
     //read data from samples.json
@@ -13,6 +14,7 @@ function init(){
         otuIds= data.samples.map(sample => sample.otu_ids);
         otuLabels= data.samples.map(sample => sample.otu_labels);
         otuPersonId= data.samples.map(sample => sample.id);
+        metadata=data.metadata
         //create data for Bar char plotly
         var data=[{
             x: sampleValues[0],
@@ -47,6 +49,23 @@ function init(){
         };
         //Plot intial Bubble chart
         Plotly.newPlot("bubble", data, layout); 
+        //get metadata 
+        var ethnicity= metadata[0]["ethnicity"];
+        var gender= metadata[0]["gender"];
+        var age= metadata[0]["age"];
+        var location= metadata[0]["location"];
+        var bbtype= metadata[0]["bbtype"];
+        var wfreq= metadata[0]["wfreq"];
+        //add metadata to html
+        metadataHtml =d3.select("#sample-metadata");
+        metadataHtml.append("p").text("Id: "+otuPersonId[0]);
+        metadataHtml.append("p").text("Ethnicity: "+ethnicity);
+        metadataHtml.append("p").text("Gender: "+gender);
+        metadataHtml.append("p").text("Age: "+age);
+        metadataHtml.append("p").text("Location: "+location);
+        metadataHtml.append("p").text("bbtype: "+bbtype);
+        metadataHtml.append("p").text("wfreq: "+wfreq);
+
         
     });
     
@@ -75,5 +94,24 @@ d3.select("#selDataset").on("change", function(){
     Plotly.restyle("bubble", "size", [size]);
     Plotly.restyle("bubble", "color", [color]);
     Plotly.restyle("bubble", "text", [text]);
+    //update demographics data
+    //get metadata 
+    var ethnicity= metadata[i]["ethnicity"];
+    var gender= metadata[i]["gender"];
+    var age= metadata[i]["age"];
+    var location= metadata[i]["location"];
+    var bbtype= metadata[i]["bbtype"];
+    var wfreq= metadata[i]["wfreq"];
+    //add metadata to html
+    metadataHtml =d3.select("#sample-metadata");
+    metadataHtml.html("");
+    metadataHtml.append("p").text("Id: "+otuPersonId[i]);
+    metadataHtml.append("p").text("Ethnicity: "+ethnicity);
+    metadataHtml.append("p").text("Gender: "+gender);
+    metadataHtml.append("p").text("Age: "+age);
+    metadataHtml.append("p").text("Location: "+location);
+    metadataHtml.append("p").text("bbtype: "+bbtype);
+    metadataHtml.append("p").text("wfreq: "+wfreq);
+
 });
 
