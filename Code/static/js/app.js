@@ -74,14 +74,15 @@ function init(){
                 gauge: {
                     axis: { range: [null, 9] },
                     steps: [
-                      { range: [0, 1], color: "lightgreen" },
-                      { range: [1, 2], color: "gray" },
-                      { range: [2, 3], color: "gray" },
-                      { range: [3, 4], color: "lightgray" },
-                      { range: [4, 5], color: "gray" },
-                      { range: [6, 7], color: "lightgray" },
-                      { range: [7, 8], color: "gray" },
-                      { range: [8, 9], color: "lightgray" }
+                      { range: [0, 1], color: "red" },
+                      { range: [1, 2], color: "red" },
+                      { range: [2, 3], color: "orange" },
+                      { range: [3, 4], color: "orange" },
+                      { range: [4, 5], color: "lightgreen" },
+                      { range: [5, 6], color: "lightgreen" },
+                      { range: [6, 7], color: "green" },
+                      { range: [7, 8], color: "darkgreen" },
+                      { range: [8, 9], color: "darkgreen" }
                     ]},
                 type: "indicator",
                 mode: "gauge+number"
