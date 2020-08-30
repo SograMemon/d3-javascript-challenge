@@ -8,7 +8,7 @@ function init(){
     //initializes default graph
     //read data from samples.json
     //var filepath="../../samples.json"; //localhost file path
-    var filepath="../data/samples.json" //github pages file path
+    var filepath="../plotly-javascript-challenge/data/samples.json" //github pages file path
     var dataPromise= d3.json(filepath).then(data => {
         //get the values for the first otu_id
         sampleValues= data.samples.map(sample => sample.sample_values);
