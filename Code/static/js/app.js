@@ -30,7 +30,7 @@ function init(){
         var dropDown= d3.select("#selDataset")
         //give the dropdow id values
         otuPersonId.forEach(element => {
-            dropDown.append("option").text("PersonId: ".concat(element));
+            dropDown.append("option").text(element);
         });
         //create data for bubble chart
         var data=[{
@@ -65,6 +65,31 @@ function init(){
         metadataHtml.append("p").text("Location: "+location);
         metadataHtml.append("p").text("bbtype: "+bbtype);
         metadataHtml.append("p").text("wfreq: "+wfreq);
+        //gauge chart
+        var data = [
+            {
+                domain: { x: [0, 1], y: [0, 1] },
+                value: wfreq,
+                title: { text: "Belly Button Wash Frequency" },
+                gauge: {
+                    axis: { range: [null, 9] },
+                    steps: [
+                      { range: [0, 1], color: "lightgreen" },
+                      { range: [1, 2], color: "gray" },
+                      { range: [2, 3], color: "gray" },
+                      { range: [3, 4], color: "lightgray" },
+                      { range: [4, 5], color: "gray" },
+                      { range: [6, 7], color: "lightgray" },
+                      { range: [7, 8], color: "gray" },
+                      { range: [8, 9], color: "lightgray" }
+                    ]},
+                type: "indicator",
+                mode: "gauge+number"
+            }
+        ];
+        
+        var layout = { width: 600, height: 500, margin: { t: 0, b: 0 } };
+        Plotly.newPlot('gauge', data, layout);
 
         
     });
@@ -112,6 +137,8 @@ d3.select("#selDataset").on("change", function(){
     metadataHtml.append("p").text("Location: "+location);
     metadataHtml.append("p").text("bbtype: "+bbtype);
     metadataHtml.append("p").text("wfreq: "+wfreq);
+    //update gauge chart
+    Plotly.newPlot('gauge', "value", wfreq);
 
 });
 
