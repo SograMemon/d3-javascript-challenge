@@ -4,10 +4,12 @@ var otuIds;
 var otuLabels;
 var otuPersonId;
 var metadata;
+var objectList=[];
 function init(){
     //initializes default graph
     //read data from samples.json
-    //var filepath="../../samples.json"; //localhost file path
+    //var filepath="../data/samples.json"; //localhost file path
+    //var filepath="https://sogramemon.github.io/plotly-javascript-challenge/data/samples.json" //using url
     var filepath="../plotly-javascript-challenge/data/samples.json" //github pages file path
     var dataPromise= d3.json(filepath).then(data => {
         //get the values for the first otu_id
@@ -16,13 +18,25 @@ function init(){
         otuLabels= data.samples.map(sample => sample.otu_labels);
         otuPersonId= data.samples.map(sample => sample.id);
         metadata=data.metadata
+        //sort data
+        //populate objectList with a list of objects
+        for(var i=0;i<otuIds.length; i++){
+            objectList.push({
+                "otuIds": otuIds[i],
+                "sampleValues": sampleValues[i],
+                "otuLabels": otuLabels[i]
+            });
+        }
+        //sort objectList based on sampleValues
+        objectList.sort(function(a,b) {return a.sampleValues - b.sampleValues});
+        console.log(objectList[0]["otuIds"].slice(0,10));
         //create data for Bar char plotly
         var data=[{
-            x: sampleValues[0],
-            y: otuIds[0].map(sample => "OTU ".concat(sample)), //add str OTU before each OTU_id
+            x: objectList[0]["sampleValues"].slice(0,10),
+            y: objectList[0]["otuIds"].slice(0,10).map(sample => "OTU ".concat(sample)), //add str OTU before each OTU_id
             type: "bar",
             orientation: "h", //horizontal bar
-            text: otuLabels[0] //hovertext
+            text: objectList[0]["otuLabels"].slice(0,10) //hovertext
         }];
         var layout={ title: "Belly Bacteria population"};
         //plot graph
@@ -104,9 +118,9 @@ init();
 d3.select("#selDataset").on("change", function(){
     var i= this.selectedIndex;
     //update bar chart
-    var x= sampleValues[i];
-    var y= otuIds[i].map(sample => "OTU ".concat(sample));
-    var text= otuLabels[i];
+    var x= objectList[i]["sampleValues"].slice(0,10);
+    var y= objectList[i]["otuIds"].slice(0,10).map(sample => "OTU ".concat(sample));
+    var text= objectList[i]["otuLabels"].slice(0,10);
     Plotly.restyle("bar", "x", [x]);
     Plotly.restyle("bar", "y", [y]);
     Plotly.restyle("bar", "text", [text]);
