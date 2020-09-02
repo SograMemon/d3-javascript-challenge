@@ -32,11 +32,11 @@ function init(){
         console.log(objectList[0]["otuIds"].slice(0,10));
         //create data for Bar char plotly
         var data=[{
-            x: objectList[0]["sampleValues"].slice(0,10),
-            y: objectList[0]["otuIds"].slice(0,10).map(sample => "OTU ".concat(sample)), //add str OTU before each OTU_id
+            x: objectList[0]["sampleValues"].slice(0,10).reverse(),
+            y: objectList[0]["otuIds"].slice(0,10).reverse().map(sample => "OTU ".concat(sample)), //add str OTU before each OTU_id
             type: "bar",
             orientation: "h", //horizontal bar
-            text: objectList[0]["otuLabels"].slice(0,10) //hovertext
+            text: objectList[0]["otuLabels"].slice(0,10).reverse() //hovertext
         }];
         var layout={ title: "Belly Bacteria population"};
         //plot graph
@@ -118,9 +118,9 @@ init();
 d3.select("#selDataset").on("change", function(){
     var i= this.selectedIndex;
     //update bar chart
-    var x= objectList[i]["sampleValues"].slice(0,10);
-    var y= objectList[i]["otuIds"].slice(0,10).map(sample => "OTU ".concat(sample));
-    var text= objectList[i]["otuLabels"].slice(0,10);
+    var x= objectList[i]["sampleValues"].slice(0,10).reverse();
+    var y= objectList[i]["otuIds"].slice(0,10).reverse().map(sample => "OTU ".concat(sample));
+    var text= objectList[i]["otuLabels"].slice(0,10).reverse();
     Plotly.restyle("bar", "x", [x]);
     Plotly.restyle("bar", "y", [y]);
     Plotly.restyle("bar", "text", [text]);
