@@ -1,0 +1,790 @@
+[
+  {
+    "FSA": "H4E", 
+    "avg_income": 32297.449610000003
+  }, 
+  {
+    "FSA": "J3Y", 
+    "avg_income": 41920.621869999995
+  }, 
+  {
+    "FSA": "K0M", 
+    "avg_income": 41941.82174
+  }, 
+  {
+    "FSA": "L0A", 
+    "avg_income": 50645.79946
+  }, 
+  {
+    "FSA": "L0G", 
+    "avg_income": 58406.25992999999
+  }, 
+  {
+    "FSA": "L0H", 
+    "avg_income": 72340.64748
+  }, 
+  {
+    "FSA": "L0J", 
+    "avg_income": 115162.7249
+  }, 
+  {
+    "FSA": "L0N", 
+    "avg_income": 56237.54513
+  }, 
+  {
+    "FSA": "L0P", 
+    "avg_income": 73380.24132999999
+  }, 
+  {
+    "FSA": "L1G", 
+    "avg_income": 42261.794630000004
+  }, 
+  {
+    "FSA": "L1H", 
+    "avg_income": 39385.14449
+  }, 
+  {
+    "FSA": "L1J", 
+    "avg_income": 39423.65492
+  }, 
+  {
+    "FSA": "L1K", 
+    "avg_income": 49227.0194
+  }, 
+  {
+    "FSA": "L1L", 
+    "avg_income": 51335.44304
+  }, 
+  {
+    "FSA": "L1N", 
+    "avg_income": 50608.74933
+  }, 
+  {
+    "FSA": "L1R", 
+    "avg_income": 56518.79973
+  }, 
+  {
+    "FSA": "L1S", 
+    "avg_income": 46207.4259
+  }, 
+  {
+    "FSA": "L1T", 
+    "avg_income": 46148.88948
+  }, 
+  {
+    "FSA": "L1V", 
+    "avg_income": 52087.33154
+  }, 
+  {
+    "FSA": "L1W", 
+    "avg_income": 52819.409589999996
+  }, 
+  {
+    "FSA": "L1Z", 
+    "avg_income": 48422.65784
+  }, 
+  {
+    "FSA": "L3P", 
+    "avg_income": 53266.32975
+  }, 
+  {
+    "FSA": "L3R", 
+    "avg_income": 49621.3033
+  }, 
+  {
+    "FSA": "L3S", 
+    "avg_income": 32618.121839999996
+  }, 
+  {
+    "FSA": "L3T", 
+    "avg_income": 55579.92634
+  }, 
+  {
+    "FSA": "L3X", 
+    "avg_income": 55353.783610000006
+  }, 
+  {
+    "FSA": "L3Y", 
+    "avg_income": 50056.68061
+  }, 
+  {
+    "FSA": "L3Z", 
+    "avg_income": 46134.13174
+  }, 
+  {
+    "FSA": "L4B", 
+    "avg_income": 51579.22403
+  }, 
+  {
+    "FSA": "L4C", 
+    "avg_income": 47934.26844
+  }, 
+  {
+    "FSA": "L4E", 
+    "avg_income": 52045.991780000004
+  }, 
+  {
+    "FSA": "L4G", 
+    "avg_income": 67161.83295
+  }, 
+  {
+    "FSA": "L4H", 
+    "avg_income": 50890.534230000005
+  }, 
+  {
+    "FSA": "L4J", 
+    "avg_income": 58606.48529
+  }, 
+  {
+    "FSA": "L4K", 
+    "avg_income": 55899.92754
+  }, 
+  {
+    "FSA": "L4L", 
+    "avg_income": 55601.320629999995
+  }, 
+  {
+    "FSA": "L4S", 
+    "avg_income": 43995.06742
+  }, 
+  {
+    "FSA": "L4W", 
+    "avg_income": 48925.223210000004
+  }, 
+  {
+    "FSA": "L4X", 
+    "avg_income": 35615.56764
+  }, 
+  {
+    "FSA": "L4Y", 
+    "avg_income": 43279.284960000005
+  }, 
+  {
+    "FSA": "L4Z", 
+    "avg_income": 40177.90621
+  }, 
+  {
+    "FSA": "L5A", 
+    "avg_income": 35375.31493
+  }, 
+  {
+    "FSA": "L5B", 
+    "avg_income": 38339.03331
+  }, 
+  {
+    "FSA": "L5C", 
+    "avg_income": 42575.45788
+  }, 
+  {
+    "FSA": "L5E", 
+    "avg_income": 49379.86513
+  }, 
+  {
+    "FSA": "L5G", 
+    "avg_income": 75287.81407000001
+  }, 
+  {
+    "FSA": "L5H", 
+    "avg_income": 97584.51612999999
+  }, 
+  {
+    "FSA": "L5J", 
+    "avg_income": 60483.622260000004
+  }, 
+  {
+    "FSA": "L5K", 
+    "avg_income": 52432.86252
+  }, 
+  {
+    "FSA": "L5M", 
+    "avg_income": 45742.86242
+  }, 
+  {
+    "FSA": "L5N", 
+    "avg_income": 47298.64947
+  }, 
+  {
+    "FSA": "L5R", 
+    "avg_income": 38570.50032
+  }, 
+  {
+    "FSA": "L5V", 
+    "avg_income": 38864.98538
+  }, 
+  {
+    "FSA": "L5W", 
+    "avg_income": 43346.09705
+  }, 
+  {
+    "FSA": "L6A", 
+    "avg_income": 48471.38239
+  }, 
+  {
+    "FSA": "L6B", 
+    "avg_income": 45117.90831
+  }, 
+  {
+    "FSA": "L6C", 
+    "avg_income": 50176.27719
+  }, 
+  {
+    "FSA": "L6E", 
+    "avg_income": 41929.552130000004
+  }, 
+  {
+    "FSA": "L6G", 
+    "avg_income": 39916.15385
+  }, 
+  {
+    "FSA": "L6H", 
+    "avg_income": 67234.35622
+  }, 
+  {
+    "FSA": "L6K", 
+    "avg_income": 73695.92629
+  }, 
+  {
+    "FSA": "L6L", 
+    "avg_income": 73544.82317999999
+  }, 
+  {
+    "FSA": "L6M", 
+    "avg_income": 70781.31099
+  }, 
+  {
+    "FSA": "L6P", 
+    "avg_income": 35368.18037
+  }, 
+  {
+    "FSA": "L6R", 
+    "avg_income": 31735.61401
+  }, 
+  {
+    "FSA": "L6S", 
+    "avg_income": 39750.448319999996
+  }, 
+  {
+    "FSA": "L6T", 
+    "avg_income": 33816.609
+  }, 
+  {
+    "FSA": "L6V", 
+    "avg_income": 34910.49777
+  }, 
+  {
+    "FSA": "L6W", 
+    "avg_income": 41460.9925
+  }, 
+  {
+    "FSA": "L6X", 
+    "avg_income": 37942.2496
+  }, 
+  {
+    "FSA": "L6Y", 
+    "avg_income": 34843.35033
+  }, 
+  {
+    "FSA": "L6Z", 
+    "avg_income": 45203.19564
+  }, 
+  {
+    "FSA": "L7A", 
+    "avg_income": 37624.25871
+  }, 
+  {
+    "FSA": "L7B", 
+    "avg_income": 90590.12346
+  }, 
+  {
+    "FSA": "L7C", 
+    "avg_income": 56750.87992000001
+  }, 
+  {
+    "FSA": "L7E", 
+    "avg_income": 57758.73016
+  }, 
+  {
+    "FSA": "L9C", 
+    "avg_income": 42582.42288
+  }, 
+  {
+    "FSA": "L9S", 
+    "avg_income": 44962.35776
+  }, 
+  {
+    "FSA": "L9T", 
+    "avg_income": 51572.1135
+  }, 
+  {
+    "FSA": "L9V", 
+    "avg_income": 46324.710080000004
+  }, 
+  {
+    "FSA": "L9Z", 
+    "avg_income": 39977.10843
+  }, 
+  {
+    "FSA": "M1B", 
+    "avg_income": 30679.49815
+  }, 
+  {
+    "FSA": "M1C", 
+    "avg_income": 51018.70702
+  }, 
+  {
+    "FSA": "M1E", 
+    "avg_income": 36469.547210000004
+  }, 
+  {
+    "FSA": "M1G", 
+    "avg_income": 27923.1376
+  }, 
+  {
+    "FSA": "M1H", 
+    "avg_income": 31647.273660000003
+  }, 
+  {
+    "FSA": "M1J", 
+    "avg_income": 29308.986689999998
+  }, 
+  {
+    "FSA": "M1K", 
+    "avg_income": 29838.3964
+  }, 
+  {
+    "FSA": "M1L", 
+    "avg_income": 32342.74721
+  }, 
+  {
+    "FSA": "M1M", 
+    "avg_income": 45270.64373
+  }, 
+  {
+    "FSA": "M1N", 
+    "avg_income": 55511.124189999995
+  }, 
+  {
+    "FSA": "M1P", 
+    "avg_income": 31336.059910000004
+  }, 
+  {
+    "FSA": "M1R", 
+    "avg_income": 33371.84801
+  }, 
+  {
+    "FSA": "M1S", 
+    "avg_income": 31599.08862
+  }, 
+  {
+    "FSA": "M1T", 
+    "avg_income": 32684.46915
+  }, 
+  {
+    "FSA": "M1V", 
+    "avg_income": 28185.3648
+  }, 
+  {
+    "FSA": "M1W", 
+    "avg_income": 34021.18977
+  }, 
+  {
+    "FSA": "M1X", 
+    "avg_income": 32308.49292
+  }, 
+  {
+    "FSA": "M2H", 
+    "avg_income": 41668.18613
+  }, 
+  {
+    "FSA": "M2J", 
+    "avg_income": 37688.863260000006
+  }, 
+  {
+    "FSA": "M2K", 
+    "avg_income": 55721.74137
+  }, 
+  {
+    "FSA": "M2L", 
+    "avg_income": 117362.2039
+  }, 
+  {
+    "FSA": "M2M", 
+    "avg_income": 40288.10109
+  }, 
+  {
+    "FSA": "M2N", 
+    "avg_income": 44988.4962
+  }, 
+  {
+    "FSA": "M2P", 
+    "avg_income": 133867.638
+  }, 
+  {
+    "FSA": "M2R", 
+    "avg_income": 36254.78802
+  }, 
+  {
+    "FSA": "M3A", 
+    "avg_income": 44054.97885
+  }, 
+  {
+    "FSA": "M3B", 
+    "avg_income": 124592.3204
+  }, 
+  {
+    "FSA": "M3C", 
+    "avg_income": 42811.45521
+  }, 
+  {
+    "FSA": "M3H", 
+    "avg_income": 60156.55029
+  }, 
+  {
+    "FSA": "M3J", 
+    "avg_income": 29158.26949
+  }, 
+  {
+    "FSA": "M3K", 
+    "avg_income": 43443.65079
+  }, 
+  {
+    "FSA": "M3L", 
+    "avg_income": 29834.724189999997
+  }, 
+  {
+    "FSA": "M3M", 
+    "avg_income": 32941.57363
+  }, 
+  {
+    "FSA": "M3N", 
+    "avg_income": 24784.607999999997
+  }, 
+  {
+    "FSA": "M4A", 
+    "avg_income": 38352.22816
+  }, 
+  {
+    "FSA": "M4B", 
+    "avg_income": 44048.4375
+  }, 
+  {
+    "FSA": "M4C", 
+    "avg_income": 41353.11522
+  }, 
+  {
+    "FSA": "M4E", 
+    "avg_income": 83258.0294
+  }, 
+  {
+    "FSA": "M4G", 
+    "avg_income": 122920.0
+  }, 
+  {
+    "FSA": "M4H", 
+    "avg_income": 23701.21858
+  }, 
+  {
+    "FSA": "M4J", 
+    "avg_income": 50671.96885
+  }, 
+  {
+    "FSA": "M4K", 
+    "avg_income": 63847.615060000004
+  }, 
+  {
+    "FSA": "M4L", 
+    "avg_income": 64260.27919
+  }, 
+  {
+    "FSA": "M4M", 
+    "avg_income": 54544.167120000006
+  }, 
+  {
+    "FSA": "M4N", 
+    "avg_income": 211828.7854
+  }, 
+  {
+    "FSA": "M4P", 
+    "avg_income": 69787.12418
+  }, 
+  {
+    "FSA": "M4R", 
+    "avg_income": 136834.6375
+  }, 
+  {
+    "FSA": "M4S", 
+    "avg_income": 76960.79102
+  }, 
+  {
+    "FSA": "M4T", 
+    "avg_income": 183044.697
+  }, 
+  {
+    "FSA": "M4V", 
+    "avg_income": 167263.3119
+  }, 
+  {
+    "FSA": "M4W", 
+    "avg_income": 202622.069
+  }, 
+  {
+    "FSA": "M4X", 
+    "avg_income": 38494.63944
+  }, 
+  {
+    "FSA": "M4Y", 
+    "avg_income": 50632.030210000004
+  }, 
+  {
+    "FSA": "M5A", 
+    "avg_income": 50511.19501
+  }, 
+  {
+    "FSA": "M5B", 
+    "avg_income": 46121.435999999994
+  }, 
+  {
+    "FSA": "M5C", 
+    "avg_income": 145786.911
+  }, 
+  {
+    "FSA": "M5E", 
+    "avg_income": 89985.55241
+  }, 
+  {
+    "FSA": "M5G", 
+    "avg_income": 26468.4346
+  }, 
+  {
+    "FSA": "M5H", 
+    "avg_income": 178935.8871
+  }, 
+  {
+    "FSA": "M5J", 
+    "avg_income": 94132.24907
+  }, 
+  {
+    "FSA": "M5K", 
+    "avg_income": 172630.5556
+  }, 
+  {
+    "FSA": "M5L", 
+    "avg_income": 237900.0
+  }, 
+  {
+    "FSA": "M5M", 
+    "avg_income": 121093.9227
+  }, 
+  {
+    "FSA": "M5N", 
+    "avg_income": 120636.3564
+  }, 
+  {
+    "FSA": "M5P", 
+    "avg_income": 145550.4021
+  }, 
+  {
+    "FSA": "M5R", 
+    "avg_income": 120758.4789
+  }, 
+  {
+    "FSA": "M5S", 
+    "avg_income": 73415.47721
+  }, 
+  {
+    "FSA": "M5T", 
+    "avg_income": 36766.07015
+  }, 
+  {
+    "FSA": "M5V", 
+    "avg_income": 76540.54826
+  }, 
+  {
+    "FSA": "M5W", 
+    "avg_income": 89029.41176
+  }, 
+  {
+    "FSA": "M5X", 
+    "avg_income": 386127.2727
+  }, 
+  {
+    "FSA": "M6A", 
+    "avg_income": 40898.57605
+  }, 
+  {
+    "FSA": "M6B", 
+    "avg_income": 54777.93531
+  }, 
+  {
+    "FSA": "M6C", 
+    "avg_income": 68644.71413
+  }, 
+  {
+    "FSA": "M6E", 
+    "avg_income": 34659.7351
+  }, 
+  {
+    "FSA": "M6G", 
+    "avg_income": 57558.071370000005
+  }, 
+  {
+    "FSA": "M6H", 
+    "avg_income": 41532.98029
+  }, 
+  {
+    "FSA": "M6J", 
+    "avg_income": 55496.20892999999
+  }, 
+  {
+    "FSA": "M6K", 
+    "avg_income": 43113.46616
+  }, 
+  {
+    "FSA": "M6L", 
+    "avg_income": 34011.76471
+  }, 
+  {
+    "FSA": "M6M", 
+    "avg_income": 31173.49548
+  }, 
+  {
+    "FSA": "M6N", 
+    "avg_income": 33135.44264
+  }, 
+  {
+    "FSA": "M6P", 
+    "avg_income": 54895.31039
+  }, 
+  {
+    "FSA": "M6R", 
+    "avg_income": 69978.55114
+  }, 
+  {
+    "FSA": "M6S", 
+    "avg_income": 79046.26866
+  }, 
+  {
+    "FSA": "M7A", 
+    "avg_income": 0.0
+  }, 
+  {
+    "FSA": "M7Y", 
+    "avg_income": 0.0
+  }, 
+  {
+    "FSA": "M8V", 
+    "avg_income": 53114.07382
+  }, 
+  {
+    "FSA": "M8W", 
+    "avg_income": 47936.609339999995
+  }, 
+  {
+    "FSA": "M8X", 
+    "avg_income": 137983.8084
+  }, 
+  {
+    "FSA": "M8Y", 
+    "avg_income": 61165.37764
+  }, 
+  {
+    "FSA": "M8Z", 
+    "avg_income": 62610.78652
+  }, 
+  {
+    "FSA": "M9A", 
+    "avg_income": 85128.78949
+  }, 
+  {
+    "FSA": "M9B", 
+    "avg_income": 59289.96513
+  }, 
+  {
+    "FSA": "M9C", 
+    "avg_income": 48608.04783
+  }, 
+  {
+    "FSA": "M9L", 
+    "avg_income": 30452.443989999996
+  }, 
+  {
+    "FSA": "M9M", 
+    "avg_income": 30687.31905
+  }, 
+  {
+    "FSA": "M9N", 
+    "avg_income": 33422.274139999994
+  }, 
+  {
+    "FSA": "M9P", 
+    "avg_income": 50239.79406
+  }, 
+  {
+    "FSA": "M9R", 
+    "avg_income": 37825.68842
+  }, 
+  {
+    "FSA": "M9V", 
+    "avg_income": 26914.85423
+  }, 
+  {
+    "FSA": "M9W", 
+    "avg_income": 32810.83563
+  }, 
+  {
+    "FSA": "N7T", 
+    "avg_income": 39495.69307
+  }, 
+  {
+    "FSA": "P0B", 
+    "avg_income": 46452.5
+  }, 
+  {
+    "FSA": "P0S", 
+    "avg_income": 43418.30635
+  }, 
+  {
+    "FSA": "P1P", 
+    "avg_income": 39603.46154
+  }, 
+  {
+    "FSA": "P2A", 
+    "avg_income": 41125.25629
+  }, 
+  {
+    "FSA": "P6A", 
+    "avg_income": 44962.173460000005
+  }, 
+  {
+    "FSA": "V0H", 
+    "avg_income": 41808.33333
+  }, 
+  {
+    "FSA": "V4B", 
+    "avg_income": 57671.505379999995
+  }, 
+  {
+    "FSA": "V6H", 
+    "avg_income": 83225.69403
+  }, 
+  {
+    "FSA": "V8P", 
+    "avg_income": 49395.76149
+  }, 
+  {
+    "FSA": "V9K", 
+    "avg_income": 46496.89082
+  }, 
+  {
+    "FSA": "V9R", 
+    "avg_income": 37709.86425
+  }, 
+  {
+    "FSA": "L5LL4T", 
+    "avg_income": 0.0
+  }, 
+  {
+    "FSA": "YO21", 
+    "avg_income": 0.0
+  }
+]
